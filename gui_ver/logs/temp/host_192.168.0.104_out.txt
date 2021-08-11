@@ -1,0 +1,34 @@
+	Your public ip:  5.18.171.206
+	Your local ip:   [['169.254.61.203'], ['25.57.191.5'], ['192.168.0.104'], ['127.0.0.1']]
+
+	SCAN REPORT FOR 192.168.0.104
+
+[*] NMAP process for 192.168.0.104 started...
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered open port
+[***] NMAP process for 192.168.0.104 done! Elapsed time: 50.494
+
+mac-address: None
+operating-system: Windows
+os-cpe: cpe:/o:microsoft:windows
+device-type: None
+uptime: None
+open-ports:
+	135/tcp msrpc Microsoft Windows RPC
+	139/tcp netbios-ssn Microsoft Windows netbios-ssn
+	445/tcp microsoft-ds? None
+	1947/tcp http Aladdin/SafeNet HASP license manager 19.05
+	5357/tcp http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+
+[#] Detailed analysis:
+device-type::80  --> : port doesn't exist
+device-type::443 --> : port doesn't exist
+signature ports:     ['135- msrpc', '139- msrpc']
+service ports:       ['445- Mic.-ds', '1947', '5357']
+
+Final device-type:   ['PC (90%)']
+Final vendor:        Mac wasn't found
+Final model:         no match found

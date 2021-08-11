@@ -1,0 +1,52 @@
+	Your public ip:  91.247.148.7
+	Your local ip:   [['127.0.0.1'], ['192.168.1.111'], ['192.168.56.1'], ['127.0.0.1']]
+
+	SCAN REPORT FOR 192.168.1.101
+
+[*] NMAP process for 192.168.1.101 started...
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered MAC address
+	Discovered the most probable device type
+	Discovered OS-CPE
+	Discovered the most probable OS
+	Discovered the uptime
+[***] NMAP process for 192.168.1.101 done! Elapsed time: 44.547
+
+mac-address: 00:12:16:9F:7E:11
+operating-system: Linux 2.6.32 - 3.5
+os-cpe: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+device-type: general purpose
+uptime: 4.676 days (since Tue May 26 01:34:35 2020)
+open-ports:
+	80/tcp http uc-httpd 1.0.0
+	554/tcp rtsp H264DVR rtspd 1.0
+	8899/tcp soap gSOAP 2.7
+
+[#] Detailed analysis:
+found-title:           NETSurveillance WEB
+device-type::80  --> : camera
+device-type::443 --> : None
+signature ports:     ['554- rtsp']
+web ports:           ['80- http']
+service ports:       ['8899']
+
+Final device-type:   ['Web camera (100%)']
+Final vendor:        Icp Internet Communication Payment AG
+Final model:         no match found
+
+
+	Web-Out-s:
+	80 Port
+
+80/tcp   open  http    uc-httpd 1.0.0
+
+|_http-favicon: Unknown favicon MD5: EC9D1C872C50DD7DA7D826D9C85FC158
+
+| http-methods: 
+
+|_  Supported Methods: GET OPTIONS
+
+|_http-server-header: uc-httpd 1.0.0
+

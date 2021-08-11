@@ -1,0 +1,13 @@
+00:00:00:xx:xx:xx	00-00-00-xx-xx-xx	0000.00xx.xxxx
+00:00:01:xx:xx:xx	00-00-01-xx-xx-xx	0000.01xx.xxxx
+00:00:02:xx:xx:xx	00-00-02-xx-xx-xx	0000.02xx.xxxx
+00:00:03:xx:xx:xx	00-00-03-xx-xx-xx	0000.03xx.xxxx
+00:00:04:xx:xx:xx	00-00-04-xx-xx-xx	0000.04xx.xxxx
+00:00:05:xx:xx:xx	00-00-05-xx-xx-xx	0000.05xx.xxxx
+00:00:06:xx:xx:xx	00-00-06-xx-xx-xx	0000.06xx.xxxx
+00:00:07:xx:xx:xx	00-00-07-xx-xx-xx	0000.07xx.xxxx
+00:00:08:xx:xx:xx	00-00-08-xx-xx-xx	0000.08xx.xxxx
+00:00:09:xx:xx:xx	00-00-09-xx-xx-xx	0000.09xx.xxxx
+00:00:AA:xx:xx:xx	00-00-AA-xx-xx-xx	0000.AAxx.xxxx
+08:00:72:xx:xx:xx	08-00-72-xx-xx-xx	0800.72xx.xxxx
+9C:93:4E:xx:xx:xx	9C-93-4E-xx-xx-xx	9C93.4Exx.xxxx

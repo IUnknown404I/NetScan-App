@@ -1,7 +1,0 @@
-00:00:B4:xx:xx:xx	00-00-B4-xx-xx-xx	0000.B4xx.xxxx
-00:0E:2E:xx:xx:xx	00-0E-2E-xx-xx-xx	000E.2Exx.xxxx
-00:1F:1F:xx:xx:xx	00-1F-1F-xx-xx-xx	001F.1Fxx.xxxx
-00:50:FC:xx:xx:xx	00-50-FC-xx-xx-xx	0050.FCxx.xxxx
-08:BE:AC:xx:xx:xx	08-BE-AC-xx-xx-xx	08BE.ACxx.xxxx
-74:DA:38:xx:xx:xx	74-DA-38-xx-xx-xx	74DA.38xx.xxxx
-80:1F:02:xx:xx:xx	80-1F-02-xx-xx-xx	801F.02xx.xxxx

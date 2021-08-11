@@ -1,0 +1,61 @@
+[*] Scan process for network 192.168.1.0/24 started...
+
+starting nmap 7.70 ( https://nmap.org ) at 2020-05-30 17:46 rtz 2 (ceia)
+initiating arp ping scan at 17:46
+scanning 255 hosts [1 port/host]
+completed arp ping scan at 17:46, 10.31s elapsed (255 total hosts)
+initiating parallel dns resolution of 255 hosts. at 17:47
+completed parallel dns resolution of 255 hosts. at 17:47, 0.03s elapsed
+
+nmap scan report for 192.168.1.1
+host is up (0.0060s latency).
+mac address: f8:d1:11:43:c0:bc (tp-link technologies)
+
+nmap scan report for 192.168.1.2
+host is up (0.0060s latency).
+mac address: 00:12:15:55:2a:d1 (istor networks)
+
+nmap scan report for 192.168.1.100
+host is up (0.0020s latency).
+mac address: ec:08:6b:95:60:bf (tp-link technologies)
+
+nmap scan report for 192.168.1.101
+host is up (0.0040s latency).
+mac address: 00:12:16:9f:7e:11 (icp internet communication payment ag)
+
+nmap scan report for 192.168.1.102
+host is up (0.0040s latency).
+mac address: 00:12:16:9f:81:84 (icp internet communication payment ag)
+
+nmap scan report for 192.168.1.103
+host is up (0.0050s latency).
+mac address: 00:12:16:a2:6c:9b (icp internet communication payment ag)
+
+nmap scan report for 192.168.1.104
+host is up (0.0060s latency).
+mac address: 00:12:16:a2:20:9a (icp internet communication payment ag)
+
+nmap scan report for 192.168.1.105
+host is up (0.0060s latency).
+mac address: 00:12:16:a2:02:3d (icp internet communication payment ag)
+
+nmap scan report for 192.168.1.106
+host is up (0.024s latency).
+mac address: 00:12:16:9f:4e:97 (icp internet communication payment ag)
+
+nmap scan report for 192.168.1.112
+host is up (0.10s latency).
+mac address: 7c:a7:b0:03:b2:26 (unknown)
+initiating parallel dns resolution of 1 host. at 17:47
+completed parallel dns resolution of 1 host. at 17:47, 0.02s elapsed
+
+nmap scan report for 192.168.1.111
+host is up.
+read data files from: c:\program files (x86)\nmap
+nmap done: 256 ip addresses (11 hosts up) scanned in 12.51 seconds
+raw packets sent: 505 (14.140kb) | rcvd: 10 (280b)
+
+[*] Process for 192.168.1.0/24 done! Elapsed time: 12.582
+
+	Your public ip:  91.247.148.7
+	Your local ip:   [['127.0.0.1'], ['192.168.1.111'], ['192.168.56.1'], ['127.0.0.1']]

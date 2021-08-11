@@ -1,0 +1,187 @@
+# Nmap 7.91 scan initiated Wed Aug 11 08:34:13 2021 as: nmap.exe -O -A -v -oN logs/netscan-nmap-out-host.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0025s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 2.0.8 or later
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 192.168.0.102
+|      Logged in as admin
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 1
+|      vsFTPd 2.3.2 - secure, fast, stable
+|_End of status
+23/tcp   open  telnet
+| fingerprint-strings: 
+|   GenericLines, NULL: 
+|     Authorization failed after trying 5 times!
+|     again after 310 seconds.
+|   GetRequest: 
+|     HTTP/1.0
+|     Authorization failed after trying 5 times!
+|     again after 299 seconds.
+|   Help: 
+|     HELP
+|     Authorization failed after trying 5 times!
+|     again after 289 seconds.
+|   NCP: 
+|     Authorization failed after trying 5 times!
+|     again after 274 seconds.
+|     DmdT^@^@^@
+|     ^@^@^@^A^@^@^@^@^@
+|   RPCCheck: 
+|     ^@^@(r
+|   SIPOptions: 
+|     Authorization failed after trying 5 times!
+|     again after 281 seconds.
+|     OPTIONS sip:nm SIP/2.0
+|     Via: SIP/2.0/TCP nm;branch=foo
+|     From: <sip:nm@nm>;tag=root
+|     <sip:nm2@nm2>
+|     Call-ID: 50000
+|     CSeq: 42 OPTIONS
+|     Max-Forwards: 70
+|     Content-Length: 0
+|     Contact: <sip:nm@nm>
+|_    Accept: application/sdp
+80/tcp   open  http
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 63679
+|     Set-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly
+|     Connection: keep-alive
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+|     <head>
+|     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+|     <link rel="stylesheet" href="../css/main.css"/>
+|     <link rel="stylesheet" href="../css/login.css"/>
+|     <link rel="stylesheet" href="../css/jquery.tpInput.css"/>
+|     <script src="../js/jquery-1.8.3.min.js" type="text/javascript"></script>
+|     <script src="../js/oid_str.js" type="text/javascript"></script>
+|     <script src="../js/lib
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 405 Method Not Allowed
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 124
+|     Set-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly
+|     Connection: close
+|_    <html><head><title>405 Method Not Allowed</title></head><body><center><h1>405 Method Not Allowed</h1></center></body></html>
+| http-methods: 
+|_  Supported Methods: GET POST
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.0.14a (workgroup: WORKGROUP)
+1900/tcp open  upnp        Portable SDK for UPnP devices 1.6.19 (Linux 3.10.14; UPnP 1.0)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port23-TCP:V=7.91%I=7%D=8/11%Time=6113615B%P=i686-pc-windows-windows%r(
+SF:NULL,61,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nAuthoriz
+SF:ation\x20failed\x20after\x20trying\x205\x20times!\r\nYou\x20can\x20try\
+SF:x20again\x20after\x20310\x20seconds\.\r\n")%r(GenericLines,65,"\xff\xfd
+SF:\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nAuthorization\x20failed\x
+SF:20after\x20trying\x205\x20times!\r\nYou\x20can\x20try\x20again\x20after
+SF:\x20310\x20seconds\.\r\n\r\n\r\n")%r(GetRequest,73,"\xff\xfd\x01\xff\xf
+SF:d\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nGET\x20/\x20HTTP/1\.0\r\n\r\nAuthori
+SF:zation\x20failed\x20after\x20trying\x205\x20times!\r\nYou\x20can\x20try
+SF:\x20again\x20after\x20299\x20seconds\.\r\n")%r(RPCCheck,19,"\xff\xfd\x0
+SF:1\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\n\x80\^@\^@\(r\xfe\^\]")%r(He
+SF:lp,67,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nHELP\r\nAu
+SF:thorization\x20failed\x20after\x20trying\x205\x20times!\r\nYou\x20can\x
+SF:20try\x20again\x20after\x20289\x20seconds\.\r\n")%r(SIPOptions,140,"\xf
+SF:f\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nAuthorization\x20fai
+SF:led\x20after\x20trying\x205\x20times!\r\nYou\x20can\x20try\x20again\x20
+SF:after\x20281\x20seconds\.\r\nOPTIONS\x20sip:nm\x20SIP/2\.0\r\nVia:\x20S
+SF:IP/2\.0/TCP\x20nm;branch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x2
+SF:0<sip:nm2@nm2>\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nMax-Fo
+SF:rwards:\x2070\r\nContent-Length:\x200\r\nContact:\x20<sip:nm@nm>\r\nAcc
+SF:ept:\x20application/sdp\r\n\r\n")%r(NCP,9B,"\xff\xfd\x01\xff\xfd\x1f\xf
+SF:f\xfb\x01\xff\xfb\x03\r\r\nAuthorization\x20failed\x20after\x20trying\x
+SF:205\x20times!\r\nYou\x20can\x20try\x20again\x20after\x20274\x20seconds\
+SF:.\r\nDmdT\^@\^@\^@\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\
+SF:x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\^@\
+SF:^@\^@\^A\^@\^@\^@\^@\^@");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.91%I=7%D=8/11%Time=6113615B%P=i686-pc-windows-windows%r(
+SF:GetRequest,20C3,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html;\
+SF:x20charset=utf-8\r\nContent-Length:\x2063679\r\nSet-Cookie:\x20JSESSION
+SF:ID=deleted;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x20GMT;\x2
+SF:0Path=/;\x20HttpOnly\r\nConnection:\x20keep-alive\r\n\r\n<!DOCTYPE\x20h
+SF:tml\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\r
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/x
+SF:html1-transitional\.dtd\">\r\n<html\x20xmlns=\"http://www\.w3\.org/1999
+SF:/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\r\n<meta\x20http-equiv=\"Co
+SF:ntent-Type\"\x20content=\"text/html;\x20charset=utf-8\"/>\r\n\r\n<head>
+SF:\r\n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20type=\"image/x
+SF:-icon\"\x20href=\"\.\./img/favicon\.ico\"/>\r\n\x20\x20\x20\x20<link\x2
+SF:0rel=\"stylesheet\"\x20href=\"\.\./css/main\.css\"/>\r\n\x20\x20\x20\x2
+SF:0<link\x20rel=\"stylesheet\"\x20href=\"\.\./css/login\.css\"/>\r\n\x20\
+SF:x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"\.\./css/jquery\.tpInp
+SF:ut\.css\"/>\r\n\r\n\x20\x20\x20\x20<script\x20src=\"\.\./js/jquery-1\.8
+SF:\.3\.min\.js\"\x20type=\"text/javascript\"></script>\r\n\x20\x20\x20\x2
+SF:0<script\x20src=\"\.\./js/oid_str\.js\"\x20type=\"text/javascript\"></s
+SF:cript>\r\n\x20\x20\x20\x20<script\x20src=\"\.\./js/lib")%r(HTTPOptions,
+SF:148,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nContent-Type:\x20t
+SF:ext/html;\x20charset=utf-8\r\nContent-Length:\x20124\r\nSet-Cookie:\x20
+SF:JSESSIONID=deleted;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00:01\x2
+SF:0GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20close\r\n\r\n<html><head
+SF:><title>405\x20Method\x20Not\x20Allowed</title></head><body><center><h1
+SF:>405\x20Method\x20Not\x20Allowed</h1></center></body></html>")%r(RTSPRe
+SF:quest,148,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nContent-Length:\x20124\r\nSet-Cooki
+SF:e:\x20JSESSIONID=deleted;\x20Expires=Thu,\x2001\x20Jan\x201970\x2000:00
+SF::01\x20GMT;\x20Path=/;\x20HttpOnly\r\nConnection:\x20close\r\n\r\n<html
+SF:><head><title>405\x20Method\x20Not\x20Allowed</title></head><body><cent
+SF:er><h1>405\x20Method\x20Not\x20Allowed</h1></center></body></html>");
+MAC Address: 0C:80:63:B9:0C:D7 (Tp-link Technologies)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.13
+Uptime guess: 11.107 days (since Sat Jul 31 06:01:53 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: TP-LINK; OS: Linux; CPE: cpe:/o:linux:linux_kernel:3.10.14
+
+Host script results:
+|_clock-skew: mean: -1h30m01s, deviation: 2h07m16s, median: -3h00m01s
+| nbstat: NetBIOS name: ARCHER_C5, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   ARCHER_C5<00>        Flags: <unique><active>
+|   ARCHER_C5<03>        Flags: <unique><active>
+|   ARCHER_C5<20>        Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|_  WORKGROUP<1e>        Flags: <group><active>
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.14a)
+|   NetBIOS computer name: 
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-08-11T08:35:23+03:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: share (dangerous)
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.50 ms 192.168.0.1
+
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 11 08:35:49 2021 -- 1 IP address (1 host up) scanned in 96.98 seconds
