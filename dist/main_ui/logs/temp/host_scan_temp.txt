@@ -1,0 +1,6 @@
+	Your public ip:  5.18.236.223
+	Your local ip:   [['192.168.0.104'], ['127.0.0.1']]
+
+	SCAN REPORT FOR 192.168.0.104'
+
+[*] NMAP process for 192.168.0.104' started...

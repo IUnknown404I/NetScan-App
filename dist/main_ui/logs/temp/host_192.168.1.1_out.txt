@@ -1,0 +1,56 @@
+	Your public ip:  91.247.148.7
+	Your local ip:   [['169.254.61.203'], ['192.168.1.108'], ['127.0.0.1']]
+
+	SCAN REPORT FOR 192.168.1.1
+
+[*] NMAP process for 192.168.1.1 started...
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered MAC address
+	Discovered the most probable device type
+	Discovered OS-CPE
+	Discovered the most probable OS
+	Discovered the uptime
+[***] NMAP process for 192.168.1.1 done! Elapsed time: 159.738
+
+mac-address: F8:D1:11:43:C0:BC
+operating-system: Linux 2.6.15 (likely TP-LINK WAP)
+os-cpe: cpe:/o:linux:linux_kernel:2.6.15
+device-type: WAP
+uptime: 5.377 days (since Wed Apr 29 15:28:12 2020)
+open-ports:
+	80/tcp http TP-LINK WR741N WAP http config
+	1900/tcp upnp ipOS upnpd (TP-LINK TL-WR741N WAP 1.0/2.0; UPnP 1.0)
+	49152/tcp http Huawei HG8245T modem http config
+
+[#] Detailed analysis:
+[!]Unauthorized to 80 port !
+device-type::80  --> : router
+device-type::443 --> : None
+web ports:           ['80- http']
+private-using ports: ['49152']
+service ports:       ['1900']
+
+Final device-type:   ['Router (100%)']
+Final vendor:        TPlink
+Final model:         TL-WR741
+
+
+	Web-Out-s:
+	80 Port
+
+80/tcp    open  http    TP-LINK WR741N WAP http config
+
+| http-auth: 
+
+| HTTP/1.1 401 N/A\x0D
+
+|_  Basic realm=TP-LINK Wireless Lite N Router WR741N
+
+| http-methods: 
+
+|_  Supported Methods: GET HEAD POST OPTIONS
+
+|_http-title: Login Incorrect
+

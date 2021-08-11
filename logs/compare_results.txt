@@ -1,0 +1,65 @@
+Comparing data from \Temp\ dir to \Hosts\ dir.
+
+[*]Log:  host_192.168.0.104_out.txt  is unique. No match found in \Hosts\.
+
+[*]Log:  host_192.168.0.1_out.txt  is unique. No match found in \Hosts\.
+
+[*]Comparison of logs: host_192.168.1.101_out.txt
+Size of \Temp\ log:  836 bytes;  Size of \Hosts\ log:  763 bytes.
+Discrepancies found:
+The line numbering is based on a largest log.
+
+Line 8:   uptime: 4.734 days (since Tue Apr 28 01:33:34 2020)
+Line 27:   |_http-favicon: Unknown favicon MD5: EC9D1C872C50DD7DA7D826D9C85FC158
+
+
+[*]Comparison of logs: host_192.168.1.108_out.txt
+Size of \Temp\ log:  1333 bytes;  Size of \Hosts\ log:  922 bytes.
+Discrepancies found:
+The line numbering is based on a largest log.
+
+Line 4:   SCAN REPORT FOR 192.168.1.108
+Line 6:   [*] NMAP process for 192.168.1.108 started...
+Line 7:   Discovered open port
+Line 7:   Discovered open port
+Line 7:   Discovered open port
+Line 7:   Discovered open port
+Line 7:   Discovered open port
+Line 12:   Discovered the most probable device type
+Line 13:   Discovered OS-CPE
+Line 14:   [***] NMAP process for 192.168.1.108 done! Elapsed time: 56.241
+Line 18:   os-cpe: cpe:/o:microsoft:windows cpe:/o:microsoft:windows_10:1607 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_vista
+Line 31:   signature ports:     ['135- msrpc', '139- msrpc']
+Line 32:   service ports:       ['445- Mic.-ds', '1947', '5432- postgresql']
+
+
+[*]Comparison of logs: host_192.168.1.1_out.txt
+Size of \Temp\ log:  1445 bytes;  Size of \Hosts\ log:  1027 bytes.
+Discrepancies found:
+The line numbering is based on a largest log.
+
+Line 4:   SCAN REPORT FOR 192.168.1.1
+Line 6:   [*] NMAP process for 192.168.1.1 started...
+Line 7:   Discovered open port
+Line 7:   Discovered open port
+Line 7:   Discovered open port
+Line 10:   Discovered MAC address
+Line 11:   Discovered the most probable device type
+Line 12:   Discovered OS-CPE
+Line 13:   Discovered the most probable OS
+Line 14:   Discovered the uptime
+Line 15:   [***] NMAP process for 192.168.1.1 done! Elapsed time: 159.738
+Line 21:   uptime: 5.377 days (since Wed Apr 29 15:28:12 2020)
+Line 31:   web ports:           ['80- http']
+Line 32:   private-using ports: ['49152']
+Line 33:   service ports:       ['1900']
+
+
+[*]Log:  host_scan_temp.txt  is unique. No match found in \Hosts\.
+
+[*]Log:  net_192.168.0.0(24)_out.txt  is unique. No match found in \Hosts\.
+
+[*]Log:  net_192.168.1.0(24)_out.txt  is unique. No match found in \Hosts\.
+
+[*]Log:  net_scan_temp.txt  is unique. No match found in \Hosts\.
+

@@ -1,0 +1,30 @@
+	Your public ip:  91.247.148.7
+	Your local ip:   [['169.254.61.203'], ['192.168.1.108'], ['127.0.0.1']]
+
+mac-address: 00:12:16:9F:7E:11
+operating-system: Linux 2.6.32 - 3.5
+os-cpe: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+device-type: general purpose
+uptime: 4.734 days (since Tue Apr 28 01:33:34 2020)
+open-ports:
+	80/tcp http uc-httpd 1.0.0
+	554/tcp rtsp H264DVR rtspd 1.0
+	8899/tcp soap gSOAP 2.7
+
+[#] Detailed analysis:
+device-type::80  --> : camera
+device-type::443 --> : None
+Final device-type:   ['Web camera (100%)']
+Final vendor:        Icp Internet Communication Payment AG
+Final model:         no match found
+
+
+	Web-Out-s:
+	80 Port
+
+80/tcp   open  http    uc-httpd 1.0.0
+
+|_http-favicon: Unknown favicon MD5: EC9D1C872C50DD7DA7D826D9C85FC158
+
+|_http-title: NETSurveillance WEB
+

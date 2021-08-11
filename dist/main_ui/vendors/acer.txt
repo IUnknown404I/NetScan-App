@@ -1,0 +1,6 @@
+00:00:E2:xx:xx:xx	00-00-E2-xx-xx-xx	0000.E2xx.xxxx
+00:01:24:xx:xx:xx	00-01-24-xx-xx-xx	0001.24xx.xxxx
+00:60:67:xx:xx:xx	00-60-67-xx-xx-xx	0060.67xx.xxxx
+00:A0:60:xx:xx:xx	00-A0-60-xx-xx-xx	00A0.60xx.xxxx
+18:06:FF:xx:xx:xx	18-06-FF-xx-xx-xx	1806.FFxx.xxxx
+C0:98:79:xx:xx:xx	C0-98-79-xx-xx-xx	C098.79xx.xxxx
