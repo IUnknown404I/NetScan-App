@@ -1,0 +1,25 @@
+[*] Scan process for network 192.168.0.0/24 started...
+
+starting nmap 7.70 ( https://nmap.org ) at 2020-05-24 18:58 rtz 2 (ceia)
+initiating arp ping scan at 18:58
+scanning 255 hosts [1 port/host]
+completed arp ping scan at 18:58, 2.68s elapsed (255 total hosts)
+initiating parallel dns resolution of 255 hosts. at 18:58
+completed parallel dns resolution of 255 hosts. at 18:58, 5.50s elapsed
+
+nmap scan report for 192.168.0.1
+host is up (0.0010s latency).
+mac address: 0c:80:63:b9:0c:d7 (unknown)
+initiating parallel dns resolution of 1 host. at 18:58
+completed parallel dns resolution of 1 host. at 18:58, 5.51s elapsed
+
+nmap scan report for 192.168.0.104
+host is up.
+read data files from: d:\programms\nmap
+nmap done: 256 ip addresses (2 hosts up) scanned in 16.82 seconds
+raw packets sent: 510 (14.280kb) | rcvd: 2 (56b)
+
+[*] Process for 192.168.0.0/24 done! Elapsed time: 16.840
+
+	Your public ip:  5.18.236.223
+	Your local ip:   [['169.254.61.203'], ['192.168.0.104'], ['127.0.0.1']]

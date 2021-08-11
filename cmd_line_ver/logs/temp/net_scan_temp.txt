@@ -1,0 +1,5 @@
+
+	Your local ip:   [['192.168.56.1']]
+	Your local ip:   [['192.168.56.1']]
+	Your local ip:   [['192.168.56.1']]	Your public ip:  5.18.199.206
+	Your local ip:   [['192.168.0.102']]

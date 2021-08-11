@@ -1,0 +1,108 @@
+	Your public ip:  5.18.171.206
+	Your local ip:   [['169.254.61.203'], ['192.168.0.104']]
+
+	SCAN REPORT FOR 192.168.0.1
+
+[*] NMAP process for 192.168.0.1 started...
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered open port
+	Discovered MAC address
+	Discovered the most probable device type
+	Discovered OS-CPE
+	Discovered the most probable OS
+	Discovered the uptime
+[***] NMAP process for 192.168.0.1 done! Elapsed time: 111.019
+
+mac-address: 0C:80:63:B9:0C:D7
+operating-system: Linux 2.6.32 - 3.13
+os-cpe: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+device-type: general purpose
+uptime: 0.422 days (since Sat Jun 06 05:45:04 2020)
+open-ports:
+	21/tcp ftp vsftpd 2.0.8 or later
+	23/tcp telnet None
+	80/tcp http None
+	139/tcp netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+	445/tcp netbios-ssn Samba smbd 3.0.14a (workgroup: WORKGROUP)
+	1900/tcp upnp Portable SDK for UPnP devices 1.6.19 (Linux 3.10.14; UPnP 1.0)
+
+[#] Detailed analysis:
+device-type::80  --> : router
+device-type::443 --> : None
+signature ports:     ['139- msrpc']
+connect&fs ports:    ['21- ftp', '23- tftp']
+web ports:           ['80- http']
+service ports:       ['445- Mic.-ds', '1900']
+
+Final device-type:   ['Router (100%)']
+Final vendor:        Icp Internet Communication Payment AG
+Final model:         no match found
+
+
+	Web-Out-s:
+	80 Port
+
+80/tcp   open  http
+
+| fingerprint-strings: 
+
+|   GetRequest: 
+
+|     HTTP/1.1 200 OK
+
+|     Content-Type: text/html; charset=utf-8
+
+|     Content-Length: 63679
+
+|     Set-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly
+
+|     Connection: keep-alive
+
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+|     <head>
+
+|     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+
+|     <link rel="stylesheet" href="../css/main.css"/>
+
+|     <link rel="stylesheet" href="../css/login.css"/>
+
+|     <link rel="stylesheet" href="../css/jquery.tpInput.css"/>
+
+|     <script src="../js/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+|     <script src="../js/oid_str.js" type="text/javascript"></script>
+
+|     <script src="../js/lib
+
+|   HTTPOptions, RTSPRequest: 
+
+|     HTTP/1.1 405 Method Not Allowed
+
+|     Content-Type: text/html; charset=utf-8
+
+|     Content-Length: 124
+
+|     Set-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly
+
+|     Connection: close
+
+|_    <html><head><title>405 Method Not Allowed</title></head><body><center><h1>405 Method Not Allowed</h1></center></body></html>
+
+| http-methods: 
+
+|_  Supported Methods: GET POST
+
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+

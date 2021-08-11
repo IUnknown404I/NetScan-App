@@ -1,0 +1,12 @@
+00:08:0D:xx:xx:xx	00-08-0D-xx-xx-xx	0008.0Dxx.xxxx
+00:0E:7B:xx:xx:xx	00-0E-7B-xx-xx-xx	000E.7Bxx.xxxx
+00:15:B7:xx:xx:xx	00-15-B7-xx-xx-xx	0015.B7xx.xxxx
+00:1C:7E:xx:xx:xx	00-1C-7E-xx-xx-xx	001C.7Exx.xxxx
+00:23:18:xx:xx:xx	00-23-18-xx-xx-xx	0023.18xx.xxxx
+78:D6:B2:xx:xx:xx	78-D6-B2-xx-xx-xx	78D6.B2xx.xxxx
+88:73:84:xx:xx:xx	88-73-84-xx-xx-xx	8873.84xx.xxxx
+B8:6B:23:xx:xx:xx	B8-6B-23-xx-xx-xx	B86B.23xx.xxxx
+E8:9D:87:xx:xx:xx	E8-9D-87-xx-xx-xx	E89D.87xx.xxxx
+E8:E0:B7:xx:xx:xx	E8-E0-B7-xx-xx-xx	E8E0.B7xx.xxxx
+EC:21:E5:xx:xx:xx	EC-21-E5-xx-xx-xx	EC21.E5xx.xxxx
+F4:64:5D:xx:xx:xx	F4-64-5D-xx-xx-xx	F464.5Dxx.xxxx

@@ -1,0 +1,11 @@
+00:00:48:xx:xx:xx	00-00-48-xx-xx-xx	0000.48xx.xxxx
+00:26:AB:xx:xx:xx	00-26-AB-xx-xx-xx	0026.ABxx.xxxx
+38:9D:92:xx:xx:xx	38-9D-92-xx-xx-xx	389D.92xx.xxxx
+44:D2:44:xx:xx:xx	44-D2-44-xx-xx-xx	44D2.44xx.xxxx
+50:57:9C:xx:xx:xx	50-57-9C-xx-xx-xx	5057.9Cxx.xxxx
+64:EB:8C:xx:xx:xx	64-EB-8C-xx-xx-xx	64EB.8Cxx.xxxx
+9C:AE:D3:xx:xx:xx	9C-AE-D3-xx-xx-xx	9CAE.D3xx.xxxx
+A4:EE:57:xx:xx:xx	A4-EE-57-xx-xx-xx	A4EE.57xx.xxxx
+AC:18:26:xx:xx:xx	AC-18-26-xx-xx-xx	AC18.26xx.xxxx
+B0:E8:92:xx:xx:xx	B0-E8-92-xx-xx-xx	B0E8.92xx.xxxx
+F8:D0:27:xx:xx:xx	F8-D0-27-xx-xx-xx	F8D0.27xx.xxxx

@@ -1,0 +1,30 @@
+80/tcp   open  http
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 63679
+|     Set-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly
+|     Connection: keep-alive
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+|     <head>
+|     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+|     <link rel="stylesheet" href="../css/main.css"/>
+|     <link rel="stylesheet" href="../css/login.css"/>
+|     <link rel="stylesheet" href="../css/jquery.tpInput.css"/>
+|     <script src="../js/jquery-1.8.3.min.js" type="text/javascript"></script>
+|     <script src="../js/oid_str.js" type="text/javascript"></script>
+|     <script src="../js/lib
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 405 Method Not Allowed
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 124
+|     Set-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly
+|     Connection: close
+|_    <html><head><title>405 Method Not Allowed</title></head><body><center><h1>405 Method Not Allowed</h1></center></body></html>
+| http-methods: 
+|_  Supported Methods: GET POST
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).

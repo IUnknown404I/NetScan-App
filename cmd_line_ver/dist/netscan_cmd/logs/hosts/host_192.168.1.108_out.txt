@@ -1,0 +1,21 @@
+	Your public ip:  91.247.148.7
+	Your local ip:   [['169.254.61.203'], ['192.168.1.108'], ['127.0.0.1']]
+
+mac-address: None
+operating-system: Windows
+os-cpe: cpe:/o:microsoft:windows cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_vista cpe:/o:microsoft:windows_embedded_compact_7
+device-type: general purpose
+uptime: None
+open-ports:
+	135/tcp msrpc Microsoft Windows RPC
+	139/tcp netbios-ssn Microsoft Windows netbios-ssn
+	445/tcp microsoft-ds? None
+	1947/tcp http Aladdin/SafeNet HASP license manager 19.05
+	5432/tcp postgresql PostgreSQL DB 9.6.0 or later
+
+[#] Detailed analysis:
+device-type::80  --> : port doesn't exist
+device-type::443 --> : port doesn't exist
+Final device-type:   ['PC (100%)']
+Final vendor:        Mac wasn't found
+Final model:         no match found
